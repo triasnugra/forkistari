@@ -30,6 +30,21 @@
   <h1>welcome</h1>
   <h2>i know you are a hardworker so it will be take a few step</h2>
   <p>please copy code in <a href="https://github.com/username" target="_blank">GitHub profile</a> to see my projects.</p>
+<button onclick="displayIframe()">Tombol Klik</button>
+
+<script>
+function displayIframe() {
+  var iframe = document.createElement("iframe");
+  iframe.src = "<iframe height="300" style="width: 100%;" scrolling="no" title="CSS Blossoming Flowers at Magical Night " src="https://codepen.io/mdusmanansari/embed/BamepLe?default-tab=html%2Cresult&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/mdusmanansari/pen/BamepLe">
+  CSS Blossoming Flowers at Magical Night </a> by Md Usman Ansari (<a href="https://codepen.io/mdusmanansari">@mdusmanansari</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>";
+  iframe.style.width = "100%";
+  iframe.style.height = "500px";
+  document.body.appendChild(iframe);
+}
+</script>
 
 </body>
 </html>
